@@ -5,20 +5,12 @@ This script allows you to list all monitors, select specific ones by UUID, and u
 Supports VALIDATION, CUSTOM_SQL, METRIC, STATS, and COMPARISON monitor types.
 """
 
-import sys
 import json
 import argparse
-import time
-from typing import Dict, Any, List, Optional
-from datetime import datetime
 
 # Import from our modular components
-from mc_client import MonteCarloClient, deep_dict_convert
+from mc_client import MonteCarloClient
 from monitor_manager import MonitorManager
-from monitor_types import (
-    get_monitor_details, update_validation_monitor,
-    update_comparison_monitor, update_stats_monitor
-)
 from monitor_utils import (
     list_monitors, select_monitors_by_uuid, 
     bulk_update_monitors, update_schedule_example,

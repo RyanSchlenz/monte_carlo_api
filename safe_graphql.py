@@ -6,7 +6,7 @@ This module provides functions for safely executing GraphQL queries with error h
 
 import json
 import logging
-from typing import Dict, Any, Optional
+from typing import Dict
 
 # Set up logging
 logging.basicConfig(

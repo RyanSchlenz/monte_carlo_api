@@ -6,10 +6,8 @@ This module provides a wrapper for the Monte Carlo API client and utilities.
 
 import os
 import sys
-import json
 import logging
 import configparser
-from typing import Dict, Any, Optional
 
 # Set up logging
 logging.basicConfig(

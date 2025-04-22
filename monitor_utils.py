@@ -7,13 +7,12 @@ This module provides utility functions for managing and updating Monte Carlo mon
 import json
 import logging
 from datetime import datetime
-from typing import Dict, List, Any, Optional, Callable
+from typing import Dict, List, Optional, Callable
 
 from mc_client import deep_dict_convert
 from monitor_types import (
     get_monitor_details, update_validation_monitor,
-    update_comparison_monitor, update_stats_monitor,
-    pause_unpause_monitor
+    update_comparison_monitor, update_stats_monitor
 )
 
 # Set up logging
