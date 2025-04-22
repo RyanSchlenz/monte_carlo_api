@@ -5,9 +5,8 @@ This module provides a wrapper for managing Monte Carlo monitors via the GraphQL
 """
 
 import logging
-from typing import Dict, List, Optional, Any
 
-from mc_client import MonteCarloClient, deep_dict_convert
+from mc_client import deep_dict_convert
 
 # Set up logging
 logging.basicConfig(
