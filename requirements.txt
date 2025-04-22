@@ -1,0 +1,10 @@
+# Core dependencies for Monte Carlo Monitor Manager
+gql>=3.0.0
+requests>=2.25.0
+urllib3>=1.26.0
+pycarlo>=0.2.0  # Optional - provides additional functionality if available
+
+# Development dependencies (optional)
+pytest>=7.0.0  # For running tests
+black>=22.0.0  # For code formatting
+pylint>=2.15.0  # For linting
